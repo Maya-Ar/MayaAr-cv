@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="69.49999999999997" y="1554.0">googleAPI.JsonAttraction.JsonResult.OpeningHours.DayOpeningHours.DetailsHours</node>
+    <node x="784.75" y="0.0">engine.Attraction</node>
+    <node x="859.75" y="570.0">engine.Attraction.Geometry</node>
+    <node x="1325.75" y="0.0">database.DBManager</node>
+    <node x="1059.75" y="504.0">engine.Attraction.dayOpeningHours</node>
+    <node x="290.25" y="0.0">googleAPI.JsonAttraction</node>
+    <node x="659.75" y="515.0">engine.Attraction.weekDay</node>
+    <node x="1370.75" y="249.0">googleAPI.APIManager</node>
+    <node x="134.74999999999997" y="361.0">googleAPI.JsonAttraction.JsonResult</node>
+    <node x="306.0" y="1292.0">googleAPI.JsonAttraction.JsonResult.Geometry.Location</node>
+    <node x="296.0" y="1085.0">googleAPI.JsonAttraction.JsonResult.Geometry</node>
+    <node x="50.99999999999997" y="1314.0">googleAPI.JsonAttraction.JsonResult.OpeningHours.DayOpeningHours</node>
+    <node x="403.75" y="262.0">googleAPI.JsonAttraction.AttractionType</node>
+    <node x="0.0" y="1030.0">googleAPI.JsonAttraction.JsonResult.OpeningHours</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="googleAPI.JsonAttraction.JsonResult.OpeningHours" target="googleAPI.JsonAttraction.JsonResult" relationship="INNER_CLASS">
+      <point x="0.0" y="-106.0" />
+      <point x="138.0" y="1005.0" />
+      <point x="259.25" y="1005.0" />
+      <point x="0.0" y="260.0" />
+    </edge>
+    <edge source="googleAPI.JsonAttraction.JsonResult.Geometry.Location" target="googleAPI.JsonAttraction.JsonResult.Geometry" relationship="INNER_CLASS">
+      <point x="0.0" y="-106.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="googleAPI.JsonAttraction.JsonResult" target="googleAPI.JsonAttraction" relationship="INNER_CLASS">
+      <point x="0.0" y="-260.0" />
+      <point x="259.25" y="237.0" />
+      <point x="384.25" y="237.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+    <edge source="googleAPI.JsonAttraction.JsonResult.OpeningHours.DayOpeningHours.DetailsHours" target="googleAPI.JsonAttraction.JsonResult.OpeningHours.DayOpeningHours" relationship="INNER_CLASS">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="googleAPI.JsonAttraction.JsonResult.OpeningHours.DayOpeningHours" target="googleAPI.JsonAttraction.JsonResult.OpeningHours" relationship="INNER_CLASS">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+    <edge source="engine.Attraction.weekDay" target="engine.Attraction" relationship="INNER_CLASS">
+      <point x="0.0" y="-128.0" />
+      <point x="749.75" y="479.0" />
+      <point x="949.75" y="479.0" />
+      <point x="0.0" y="227.0" />
+    </edge>
+    <edge source="engine.Attraction.Geometry" target="engine.Attraction" relationship="INNER_CLASS">
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="227.0" />
+    </edge>
+    <edge source="googleAPI.JsonAttraction.JsonResult.Geometry" target="googleAPI.JsonAttraction.JsonResult" relationship="INNER_CLASS">
+      <point x="0.0" y="-51.0" />
+      <point x="380.5" y="1005.0" />
+      <point x="259.25" y="1005.0" />
+      <point x="0.0" y="260.0" />
+    </edge>
+    <edge source="engine.Attraction.dayOpeningHours" target="engine.Attraction" relationship="INNER_CLASS">
+      <point x="0.0" y="-139.0" />
+      <point x="1170.25" y="479.0" />
+      <point x="949.75" y="479.0" />
+      <point x="0.0" y="227.0" />
+    </edge>
+    <edge source="googleAPI.JsonAttraction.AttractionType" target="googleAPI.JsonAttraction" relationship="INNER_CLASS">
+      <point x="0.0" y="-359.0" />
+      <point x="509.25" y="237.0" />
+      <point x="384.25" y="237.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="1071.5" y="495.5" />
+  <SelectedNodes>
+    <node>googleAPI.APIManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
